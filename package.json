@@ -1,0 +1,16 @@
+{
+  "name": "atividade-banco",
+  "version": "1.0.0",
+  "description": "Exercício de POO - Exceções, Associações e Interfaces",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "run": "npm run build && node dist/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.0"
+  }
+}
